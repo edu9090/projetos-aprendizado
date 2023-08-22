@@ -39,7 +39,7 @@ while run == True:
             
         
     limpar()
-    esc = int(input("1 para continuar\n2 para resetar\n3 para sair : "))
+    esc = int(input("1 para continuar\n2 para resetar\n3 para sair\n4 para os creditos : "))
     if esc == 1:
         run = True
         cond = True
@@ -57,6 +57,9 @@ while run == True:
     else:
         if esc == 3:
             break
+        elif esc == 4:
+            print("nome do desenvolvedor: EDUARDO VERUS DE BRITTO")
+            run == True
         else:
             print ("retorne valores validos")
 limpar()
