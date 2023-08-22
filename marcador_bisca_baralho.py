@@ -1,4 +1,5 @@
 import os
+import time
 run = True
 fs = True
 cond = True
@@ -58,7 +59,8 @@ while run == True:
         if esc == 3:
             break
         elif esc == 4:
-            print("nome do desenvolvedor: EDUARDO VERUS DE BRITTO")
+            print("nome do desenvolvedor: EDUARDO VERUS DE BRITTO\n espere 10 segundos")
+            time.sleep (10)
             run == True
         else:
             print ("retorne valores validos")
