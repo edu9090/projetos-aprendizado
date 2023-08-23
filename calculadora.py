@@ -30,11 +30,12 @@ def divisão ():
     print("a divisão é ",div)
 
 def fatorial():
-    xp = int(input("qual o número a ser fatorado: "))
+     exp = int(input("Qual o número a ser fatorado: "))
     fatorial = 1  
     while exp > 0:
         fatorial = fatorial * exp
         exp = exp - 1
+    print("O fatorial é", fatorial)
 
 print("O fatorial é", fatori
 
