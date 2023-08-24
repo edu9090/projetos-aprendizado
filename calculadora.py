@@ -1,3 +1,5 @@
+#esse foi um  exercicio feito para treinar principios basicos
+
 import math
 import os 
 def limpar():
