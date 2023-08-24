@@ -1,3 +1,5 @@
+/*codigo um dos primeiros codigos feitos com o intuito de treinar operadores logicos e matematicos*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
