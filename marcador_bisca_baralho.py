@@ -1,3 +1,7 @@
+#projeto pessoal feito durante as pausas, o codigo foi feito para marcar os pontos mostrar os vencedores
+
+
+
 import os
 import time
 run = True
