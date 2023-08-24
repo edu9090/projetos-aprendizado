@@ -1,6 +1,4 @@
-#projeto pessoal feito durante as pausas, o codigo foi feito para marcar os pontos mostrar os vencedores
-
-
+#projeto pessoal com intuito de marcar e analizar ganhador de bisca
 
 import os
 import time
@@ -98,3 +96,4 @@ if njog ==3 :
         elif p1 == p2 and p1 == p3 and p2 == p3:
             print("não sei como voces empataram com ",p1," pontos cada um ")
 aux = (input("\n\n\n\nnome do desenvolvedor : EDUARDO VERUS DE BRITTO\ntecle enter para finalizar..................."))
+
