@@ -30,14 +30,14 @@ def divisão ():
     print("a divisão é ",div)
 
 def fatorial():
-     exp = int(input("Qual o número a ser fatorado: "))
+    xp = int(input("qual o número a ser fatorado: "))
     fatorial = 1  
-    while exp > 0:
-        fatorial = fatorial * exp
-        exp = exp - 1
-    print("O fatorial é", fatorial)
+    while xp > 0:
+        fatorial = fatorial * xp
+        xp = xp - 1
+    print("o fatorial é ",fatorial)
 
-print("O fatorial é", fatori
+print("O fatorial é", fatorial)
 
 def potencia ():
     base = int (input("qual o numero base :"))
@@ -111,6 +111,3 @@ def posmenu():
     exit()
 
 menu()
-
-
-
