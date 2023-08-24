@@ -40,7 +40,7 @@ while run == True:
             
         
     limpar()
-    esc = int(input("1 para continuar\n2 para resetar\n3 para sair\n4 para os creditos : "))
+    esc = int(input("1 para continuar\n2 para resetar\n3 para sair : "))
     if esc == 1:
         run = True
         cond = True
@@ -58,10 +58,6 @@ while run == True:
     else:
         if esc == 3:
             break
-        elif esc == 4:
-            print("nome do desenvolvedor: EDUARDO VERUS DE BRITTO\n espere 10 segundos")
-            time.sleep (10)
-            run == True
         else:
             print ("retorne valores validos")
 limpar()
@@ -86,7 +82,7 @@ if njog ==3 :
         elif p3>p1:
             print ("o ganhador é o player 2 com ",p2,"pontos\nseguido pelo player 2 com ",p3," pontos\ne o player 3 com ",p1,"pontos")
         else:
-            print("o ganhador é o player 2 com",p2,"pontos znseguido de um empate enrtre player 1 e player 3 com",p1,"pontos cada um")
+            print("o ganhador é o player 2 com",p2,"pontos \nseguido de um empate entre player 1 e player 3 com",p1,"pontos cada um")
     else:
         if p3 >p2 and p3 > p1:
             if p1 > p2:
@@ -94,6 +90,7 @@ if njog ==3 :
             elif p2 > p1:
                 print ("o ganhador é o player 3 com ",p3,"pontos\nseguido pelo player 2 com ",p2," pontos\ne o player 1 com ",p1,"pontos")
             else:
-                print("o ganhador é o player 3 com",p3,"pontos znseguido de um empate enrtre player 1 e player 2 com",p2,"pontos cada um")
+                print("o ganhador é o player 3 com",p3,"pontos \nseguido de um empate entre player 1 e player 2 com",p2,"pontos cada um")
         elif p1 == p2 and p1 == p3 and p2 == p3:
             print("não sei como voces empataram com ",p1," pontos cada um ")
+aux = (input("\n\n\n\nnome do desenvolvedor : EDUARDO VERUS DE BRITTO\ntecle enter para finalizar..................."))
