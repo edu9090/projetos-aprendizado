@@ -1,0 +1,51 @@
+body {
+  background-color: lightgreen;
+  border: 0;
+  margin: 0;
+}
+nav {
+  height: 100px;
+  background-color: aquamarine;
+}
+.barra {
+  height: 10px;
+  background-color: black;
+}
+#nome {
+  border-radius: 10px;
+  top: 10px;
+  position: relative;
+  height: 20px;
+  width: 150px;
+  background-color: rgba(0, 0, 0, 50%);
+  left: 10px;
+}
+
+#sabor {
+  position: relative;
+  top: 60px;
+  left: -150px;
+  height: 30px;
+  background-color: lightblue;
+}
+button {
+  position: relative;
+  top: 100px;
+  left: 10px;
+}
+#sorveteria {
+  position: relative;
+  text-align: center;
+  top: 40px;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #ff0000;
+}
+
+#result {
+  position: relative;
+  top: 110px;
+  font-size: 30px;
+  color: blue;
+}
