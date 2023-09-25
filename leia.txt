@@ -1,0 +1,6 @@
+a pasta javascript é um site feito durante a aula que consite em ler as entradas de caixas e exibir o resultado em uma area selecionada.
+ele foi feito para treinar javascript basico
+
+
+a pasta calculadora tambem é um site para treinar o basico de javascript. ele consiste em ler o valor 1 e valor 2 e dependendo das opções ele executa certo comando com operadores matematico
+e se a oção selecionada for a raiz ele esconde os elementos usando o style no javascript
